@@ -1,0 +1,687 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bhumika Patidar | Java Developer</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- PAGE LOADER -->
+<div class="page-loader" id="pageLoader">
+    <div class="loader-content">
+        <p>BHUMIKA PATIDAR</p>
+        <span>JAVA DEVELOPER</span>
+    </div>
+</div>
+
+<!-- SCROLL PROGRESS -->
+<div class="scroll-progress">
+    <div class="scroll-progress-bar" id="progressBar"></div>
+</div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        
+        Bhumika Patidar
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#why-me">Why Me</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a th:href="@{/files/Bhumika-Patidar-Resume.pdf}"
+       class="resume-btn" download>
+        <i class="fas fa-download"></i> Resume
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+</header>
+
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="availability-badge">
+            <span class="availability-dot"></span>
+            Open to Java Developer Opportunities
+        </div>
+
+        <p class="greeting">Hello, I'm</p>
+
+        <h1>Bhumika <span>Patidar</span></h1>
+
+        <h2>JAVA DEVELOPER</h2>
+
+        <p class="hero-description">
+            A passionate Java Developer focused on building
+            scalable backend applications using Java, Spring Boot,
+            REST APIs and modern technologies.
+
+            I enjoy solving problems, learning new technologies
+            and transforming ideas into practical applications.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="primary-btn">
+                Explore My Work
+                <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <a href="#contact" class="secondary-btn">
+                Let's Connect
+            </a>
+        </div>
+
+        <div class="social-links">
+
+            <a href="https://www.linkedin.com/in/bhumika-patidar-086707273"
+               target="_blank" rel="noopener">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+
+            <a href="https://github.com/Bhumika-Patidar-13"
+               target="_blank" rel="noopener">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+
+            <a href="mailto:bhumikapatidar13@gmail.com">
+                <i class="fas fa-envelope"></i> Email
+            </a>
+
+        </div>
+
+        <div class="tech-strip">
+            <span>Java</span>
+			<span>Collections and MultiThreading</span>
+			<span>MySQL</span>
+			<span>Hibernate</span>
+            <span>Spring & Spring Boot</span>
+            <span>REST APIs</span>
+			<span>MicroServices</span>
+			
+        </div>
+
+    </div>
+
+
+    <!-- PROFILE IMAGE -->
+    <div class="hero-visual">
+
+        <div class="hero-circle">
+
+            <div class="developer-placeholder">
+                <img th:src="@{/WhatsApp Image 2026-05-26 at 5.43.19 PM.jpeg}"
+                     alt="Bhumika Patidar Profile Photo">
+            </div>
+
+        </div>
+
+        <div class="tech-card java-card">
+            <i class="fab fa-java"></i>
+            <p>Java</p>
+        </div>
+
+        <div class="tech-card spring-card">
+            <i class="fas fa-leaf"></i>
+            <p>Spring Boot</p>
+        </div>
+
+        <div class="tech-card rest-card">
+            <i class="fas fa-code"></i>
+            <p>REST APIs</p>
+        </div>
+
+        <div class="tech-card ai-card">
+            <i class="fas fa-brain"></i>
+            <p>Spring AI</p>
+        </div>
+
+        <div class="tech-card mysql-card">
+            <i class="fas fa-database"></i>
+            <p>MySQL</p>
+        </div>
+
+        <div class="tech-card jpa-card">
+            <i class="fas fa-server"></i>
+            <p>Hibernate</p>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT SECTION -->
+<section class="about-section" id="about">
+
+    <div class="section-heading">
+        <p>GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h3>Building Solutions Through Code</h3>
+
+            <p>
+                I am a Computer Science graduate with a strong
+                interest in Java Development and backend engineering.
+            </p>
+
+            <p>
+                My technical foundation includes Core Java,
+                Object-Oriented Programming, Data Structures,
+                JDBC, MySQL and Spring Boot.
+            </p>
+
+            <p>
+                I have hands-on experience developing applications
+                using Spring Boot, Spring MVC, REST APIs and Spring AI.
+                I continuously work on improving my technical skills
+                and building real-world projects.
+            </p>
+
+            <p>
+                My goal is to become a skilled Java Backend Developer
+                and contribute to developing reliable and scalable
+                software applications.
+            </p>
+
+        </div>
+
+
+        <div class="about-info">
+
+            <div class="info-card">
+                <i class="fas fa-code"></i>
+                <h4>Backend Development</h4>
+                <p>Java & Spring Boot</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fas fa-database"></i>
+                <h4>Database</h4>
+                <p>MySQL & JDBC</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fas fa-project-diagram"></i>
+                <h4>Development</h4>
+                <p>REST APIs & Microservices</p>
+            </div>
+
+            <div class="info-card">
+                <i class="fas fa-lightbulb"></i>
+                <h4>Problem Solving</h4>
+                <p>Logical Thinking</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SKILLS SECTION -->
+<section class="skills-section" id="skills">
+
+    <div class="section-heading">
+        <p>MY TECHNICAL EXPERTISE</p>
+        <h2>Technical <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-category">
+            <i class="fab fa-java"></i>
+            <h3>Programming Languages</h3>
+            <div class="skill-list">
+                <span>Core Java</span>
+                <span>Advanced Java</span>
+                <span>C</span>
+                <span>C++</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <i class="fas fa-leaf"></i>
+            <h3>Frameworks</h3>
+            <div class="skill-list">
+                <span>Spring Boot</span>
+                <span>Spring MVC</span>
+                <span>Spring AI</span>
+                <span>Hibernate</span>
+                <span>JPA</span>
+				<span>MicroServices</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <i class="fas fa-database"></i>
+            <h3>Database & Connectivity</h3>
+            <div class="skill-list">
+                <span>MySQL</span>
+                <span>JDBC</span>
+                <span>SQL</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <i class="fas fa-globe"></i>
+            <h3>Web Technologies</h3>
+            <div class="skill-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>REST APIs</span>
+                <span>JSON</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <i class="fas fa-tools"></i>
+            <h3>Tools & Platforms</h3>
+            <div class="skill-list">
+                <span>Spring Tool Suite</span>
+                <span>Eclipse</span>
+                <span>Postman</span>
+                <span>Git</span>
+                <span>GitHub</span>
+            </div>
+        </div>
+
+        <div class="skill-category">
+            <i class="fas fa-book-open"></i>
+            <h3>Core Concepts</h3>
+            <div class="skill-list">
+                <span>OOPs</span>
+                <span>Data Structures</span>
+                <span>Collections</span>
+                <span>Exception Handling</span>
+                <span>Multithreading</span>
+				<span>Java 8 features</span>
+				<span>Stream API</span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- PROJECTS SECTION -->
+<section class="projects-section" id="projects">
+
+    <div class="section-heading">
+        <p>WHAT I HAVE BUILT</p>
+        <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="projects-container">
+
+        <!-- PROJECT 1 -->
+        <div class="project-card featured-project">
+
+            <div class="project-visual">
+                <i class="fas fa-brain"></i>
+            </div>
+
+            <p class="project-number">01 / FEATURED PROJECT</p>
+
+            <h3>AI-Powered Java Quiz Application</h3>
+
+            <p>
+                Developed an interactive Java quiz application
+                integrated with Spring AI to dynamically generate
+                Java programming questions.
+
+                Supports MCQ, Fill in the Blanks and True/False
+                question formats with session-based answer handling.
+            </p>
+
+            <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Spring AI</span>
+                <span>Spring MVC</span>
+                <span>Thymeleaf</span>
+                <span>JSON</span>
+            </div>
+
+            <a href="https://github.com/Bhumika-Patidar-13/Java-SpringAI-quiz"
+               target="_blank" rel="noopener" class="project-btn">
+                View on GitHub <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <!-- PROJECT 2 -->
+        <div class="project-card">
+
+            <div class="project-visual">
+                <i class="fas fa-car"></i>
+            </div>
+
+            <p class="project-number">02 / BACKEND PROJECT</p>
+
+            <h3>RideSphere – Vehicle Booking System</h3>
+
+            <p>
+                Developed a vehicle booking and rental management
+                application using Spring Boot microservices.
+
+                Implemented service communication using OpenFeign,
+                service discovery using Eureka and REST APIs
+                for customer, vehicle and booking operations.
+            </p>
+
+            <div class="project-tech">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Microservices</span>
+                <span>OpenFeign</span>
+				<span>RestAPI</span>
+				 <span>Eureka</span>
+                <span>MySQL</span>
+            </div>
+
+            <a href="https://github.com/Bhumika-Patidar-13/RideSphere"
+               target="_blank" rel="noopener" class="project-btn">
+                View on GitHub <i class="fas fa-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- WHY ME SECTION -->
+<section class="why-me-section" id="why-me">
+
+    <div class="section-heading">
+        <p>MY STRENGTHS</p>
+        <h2>Why <span>Choose Me?</span></h2>
+    </div>
+
+    <div class="why-me-container">
+
+        <div class="why-card">
+            <span class="why-icon">01</span>
+            <h3>Strong Java Foundation</h3>
+            <p>
+                Good understanding of Core Java, OOPs,
+                Collections, Exception Handling and
+                fundamental programming concepts.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <span class="why-icon">02</span>
+            <h3>Practical Project Experience</h3>
+            <p>
+                Hands-on experience developing applications
+                using Spring Boot, Spring AI, REST APIs
+                and Microservices.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <span class="why-icon">03</span>
+            <h3>Continuous Learning</h3>
+            <p>
+                Always interested in learning new technologies
+                and improving technical knowledge through
+                practical implementation.
+            </p>
+        </div>
+
+        <div class="why-card">
+            <span class="why-icon">04</span>
+            <h3>Problem-Solving Mindset</h3>
+            <p>
+                Enjoy solving programming challenges,
+                understanding complex problems and
+                finding efficient solutions.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- CAREER GOAL -->
+<section class="career-section">
+
+    <div class="career-content">
+
+        <p class="career-label">MY CAREER OBJECTIVE</p>
+
+        <h2>
+            Turning Ideas Into
+            <span>Meaningful Solutions</span>
+        </h2>
+
+        <p>
+            I am looking forward to starting my professional journey
+            as a Java Developer, where I can apply my knowledge,
+            contribute to real-world projects and grow as a software
+            engineer.
+        </p>
+
+        <a href="#contact" class="career-btn">
+            Let's Work Together
+            <i class="fas fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- EDUCATION SECTION -->
+<section class="education-section" id="education">
+
+    <div class="section-heading">
+        <p>MY ACADEMIC JOURNEY</p>
+        <h2>My <span>Education</span></h2>
+    </div>
+
+    <div class="education-container">
+
+        <div class="education-card">
+
+            <p class="education-year">2023 – 2027</p>
+
+            <i class="fas fa-graduation-cap"></i>
+
+            <h3>Bachelor of Technology</h3>
+
+            <h4>Computer Science & Engineering</h4>
+
+            <p>
+                Swami Vivekanand College of Engineering, Indore
+            </p>
+
+            <p class="education-result">
+                CGPA: 8.04
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- RESUME CTA -->
+<section class="resume-cta">
+
+    <div class="resume-cta-content">
+
+        <p>LET'S TAKE THE NEXT STEP</p>
+
+        <h2>
+            Interested in My
+            <span>Profile?</span>
+        </h2>
+
+        <p class="resume-cta-text">
+            Explore my technical skills, projects and experience
+            in more detail through my resume.
+        </p>
+
+        <a th:href="@{/files/Bhumika-Patidar-Resume.pdf}"
+           class="primary-btn" download>
+            <i class="fas fa-download"></i>
+            Download Resume
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+<section class="contact-section" id="contact">
+
+    <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Let's <span>Connect</span></h2>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-intro">
+
+            <h3>Have an Opportunity?</h3>
+
+            <p>
+                I am actively looking for Java Developer opportunities.
+                Feel free to connect with me for professional
+                discussions, collaborations or career opportunities.
+            </p>
+
+            <a href="mailto:YOUR_EMAIL@gmail.com"
+               class="contact-email">
+                bhumikapatidar13@gmail.com
+            </a>
+
+        </div>
+
+
+        <div class="contact-links">
+
+            <a href="mailto:YOUR_EMAIL@gmail.com"
+               class="contact-card">
+
+                <span><i class="fas fa-envelope"></i></span>
+
+                <div>
+                    <h4>Email</h4>
+                    <p>Let's connect through email</p>
+                </div>
+
+            </a>
+
+
+            <a href="https://www.linkedin.com/in/bhumika-patidar-086707273"
+               target="_blank" rel="noopener" class="contact-card">
+
+                <span><i class="fab fa-linkedin"></i></span>
+
+                <div>
+                    <h4>LinkedIn</h4>
+                    <p>Connect professionally</p>
+                </div>
+
+            </a>
+
+
+            <a href="https://github.com/Bhumika-Patidar-13"
+               target="_blank" rel="noopener" class="contact-card">
+
+                <span><i class="fab fa-github"></i></span>
+
+                <div>
+                    <h4>GitHub</h4>
+                    <p>Explore my projects</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div class="footer-logo">
+            <strong>BHUMIKA PATIDAR</strong>
+        </div>
+
+        <p>Java Developer | Building Solutions Through Code</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Bhumika Patidar. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop"
+        aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<script th:src="@{/js/script.js}"></script>
+
+</body>
+</html>
